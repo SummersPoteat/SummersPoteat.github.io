@@ -8,6 +8,7 @@ body {
     padding: 10px;
     margin: 10px;
     background-color: rgb(255, 157, 157);
+    border-radius: 25px;
 }
 
 .assignment img {
@@ -16,7 +17,22 @@ body {
     padding: 10px;
 }
 
+.assignment img:hover {
+    border:4px dashed lightcoral
+}
+
+
 h1{
     color:white;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+
+    color:lightcoral
 }
